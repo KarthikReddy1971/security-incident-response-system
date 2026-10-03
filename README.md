@@ -1,61 +1,75 @@
-Security Incident Response System
-A comprehensive web-based platform designed to streamline the detection, analysis, and management of security incidents. Built using modern web technologies, it provides real-time monitoring, incident tracking, and reporting capabilities.
+# 🛡️ Security Incident Response System
 
-Features
-Real-Time Incident Detection: Monitors systems for potential security threats and alerts administrators promptly.
+A role-based security incident management platform that helps organizations **report, investigate, track, and resolve cybersecurity incidents** through a centralized system.
 
-Incident Management Dashboard: Provides a centralized view of ongoing and past incidents, including their status and severity.
+## 🚀 Features
 
-Automated Reporting: Generates detailed reports for each incident, aiding in compliance and post-incident analysis.
+- 🔐 Secure authentication with Supabase
+- 👥 Role-based access: Employee, Analyst, Admin
+- 🚨 Incident reporting and management
+- 🔎 Incident investigation
+- 💬 Investigation comments
+- 📋 Incident history and event tracking
+- 💻 Affected asset tracking
+- 📊 Security dashboard
+- 🛡️ PostgreSQL Row Level Security (RLS)
 
-User Authentication: Ensures secure access with role-based permissions for different user levels.
+## 👥 Roles
 
-Responsive Design: Accessible across various devices, ensuring usability for on-the-go incident management.
+| Role | Responsibilities |
+|------|------------------|
+| Employee | Report and track their incidents |
+| Analyst | Investigate and update incidents |
+| Admin | Manage incidents and assign analysts |
 
-Technologies Used
-Frontend: HTML, TypeScript, Tailwind CSS
+## 🔄 Incident Lifecycle
 
-Backend: Node.js (Vite)
+**Reported → Investigating → Contained → Resolved → Closed**
 
-Package Management: npm
+## 🏢 How It Helps Organizations
 
-Code Quality: ESLint
+- Centralizes security incident reporting
+- Helps security teams manage investigations systematically
+- Provides visibility into incident status and progress
+- Enables administrators to assign incidents to analysts
+- Maintains investigation history and activities
+- Protects sensitive incident data through role-based access and RLS
+- Helps track affected systems and assets
 
-Build Tool: Vite
+## 🛠️ Tech Stack
 
-Installation
-Clone the repository:
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- Supabase
+- PostgreSQL
+- React Query
 
-bash
-Copy
-Edit
-git clone - https://github.com/KarthikReddy1971/security-incidence-response-/tree/main
-cd security-incidence-response
-Install dependencies:
+## ⚙️ Setup
 
-bash
-Copy
-Edit
+```bash
+git clone https://github.com/YOUR_USERNAME/security-incident-response-system.git
+cd security-incident-response-system
 npm install
-Run the development server:
-
-bash
-Copy
-Edit
 npm run dev
-Navigate to http://localhost:3000 to access the application.
+````
 
-Usage
-After starting the development server, you can:
+Create `.env.local`:
 
-View Incident Dashboard: Monitor ongoing and resolved incidents.
+```env
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_PUBLISHABLE_KEY=your_supabase_key
+```
 
-Generate Reports: Access detailed reports for each incident.
+## 🎯 Purpose
 
-Manage Incidents: Update the status and details of incidents as they progress.
+This project demonstrates a real-world approach to **security incident management, role-based access control, secure authentication, database security, and incident response workflows**.
 
-Contributing
-Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request with your proposed changes.
+## 👨‍💻 Author
 
-License
-This project is licensed under the ISC License - see the LICENSE file for details.
+**Karthik Reddy** / KarthikReddy1971
+[portfolio](https://karthikkportofolio.netlify.app/)
+
+[GitHub](https://github.com/KarthikReddy1971) •
+[LinkedIn](https://www.linkedin.com/in/karthik-reddy-buthukuri-25678328/)
