@@ -69,6 +69,7 @@ This project demonstrates a real-world approach to **security incident managemen
 ## 👨‍💻 Author
 
 **Karthik Reddy** / KarthikReddy1971
+
 [portfolio](https://karthikkportofolio.netlify.app/)
 
 [GitHub](https://github.com/KarthikReddy1971) •
